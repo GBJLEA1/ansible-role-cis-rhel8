@@ -620,7 +620,6 @@
   replace:
     dest: /etc/default/grub
     regexp: '(selinux|enforcing)\s*=\s*0\s*'
-    follow: true
   notify: update grub2
   when:
     - cis_rhel8_1_7_1_2
