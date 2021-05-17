@@ -1,4 +1,5 @@
 ---
+# yamllint disable rule:line-length
 - name: 5.1.1 Ensure cron daemon is enabled (Scored)
   service:
     name: crond

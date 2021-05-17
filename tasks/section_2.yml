@@ -1,4 +1,6 @@
 ---
+# yamllint disable rule:line-length
+
 - name: 2.1.1 Ensure xinetd is not installed (Scored)
   yum:
     name: xinetd
