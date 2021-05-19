@@ -78,7 +78,7 @@
         owner: root
         group: root
         mode: 0644
-      notify: restart tmp.mount
+#      notify: restart tmp.mount
     - name: Make sure the tmp.mount service is active
       service:
         name: tmp.mount
