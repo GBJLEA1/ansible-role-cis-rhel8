@@ -1,4 +1,5 @@
 ---
+# yamllint disable rule:line-length
 - name: 6.1.1 Audit system file permissions (Not Scored)
   cron:
     name: CIS 6.1.1 Audit system file permissions

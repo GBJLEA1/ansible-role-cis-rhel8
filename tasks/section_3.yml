@@ -1,4 +1,5 @@
 ---
+# yamllint disable rule:line-length
 - name: 3.1.1 Ensure IP forwarding is disabled (Scored)
   block:
     - name: 3.1.1 Ensure IP forwarding is disabled (Scored) - ipv4
@@ -272,7 +273,7 @@
     mode: 0644
     create: true
   when:
-      - cis_rhel8_3_3_1
+    - cis_rhel8_3_3_1
   tags:
     - scored
     - level2
@@ -289,7 +290,7 @@
     mode: 0644
     create: true
   when:
-      - cis_rhel8_3_3_2
+    - cis_rhel8_3_3_2
   tags:
     - scored
     - level2
@@ -306,7 +307,7 @@
     mode: 0644
     create: true
   when:
-      - cis_rhel8_3_3_3
+    - cis_rhel8_3_3_3
   tags:
     - scored
     - level2
@@ -323,7 +324,7 @@
     mode: 0644
     create: true
   when:
-      - cis_rhel8_3_3_4
+    - cis_rhel8_3_3_4
   tags:
     - scored
     - section2
